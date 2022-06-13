@@ -1,40 +1,23 @@
 var questions = [
     {
-      question: "What does CSS do?",
-      answers: [
-        { text: "Nothing", correct: false },
-        { text: "Adds style to HTML", correct: true },
-        { text: "It is the bones of the web page", correct: false },
-        { text: "Adds function to the web page", correct: false },
-      ],
+        title: " A collection of elements of the same data type which may either in order or not, is called _____.",
+        choices: ["string", "array", "object", "rope"],
+        answer: "array"
     },
     {
-      question: "How do you write and array in JavaScript?",
-      answers: [
-        { text: "var letters = ('a','b','c')", correct: true },
-        { text: "var letters = 'a','b','c'", correct: false },
-        { text: "var letters = (a,b,c)", correct: false },
-        { text: "var letters = a,b,c", correct: false },
-      ],
+        title: "The condition in an if / else statement is enclosed with ______.",
+        choices: ["quotes", "curly brackets", "parenthesis", "square brackets"],
+        answer: "parenthesis"
+    },
+
+    {
+        title: "Which one of the following is known as the Equality operator, which is used to check whether the two values are equal or not?",
+        choices: ["=", "===", "==", "&&"],
+        answer: "=="
     },
     {
-      question: "What is a way to write a function in Javascript?",
-      answers: [
-        { text: "function;nameOfFunction()", correct: false },
-        { text: "function nameOfFunction()", correct: true },
-        { text: "function:nameOfFunction()", correct: false },
-        { text: "function+nameOfFunction()", correct: false },
-      ],
+        title: "Which one of the following symbol is used for creating comments in the javascript?",
+        choices: ["()", "//", "<>", "comment:"],
+        answer: "//"
     },
-    {
-      question: "How do you put Javascript into HTML?",
-      answers: [
-        //prettier-ignore
-        { text: "<javascript>", correct: false },
-        { text: "<script>", correct: true },
-        { text: "<java>", correct: false },
-        { text: "<js>", correct: false },
-      ],
-    },
-  ];
-  
+];
